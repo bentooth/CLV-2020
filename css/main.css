@@ -36,7 +36,7 @@
 }
 
 body {
-  background-color: #f4efef;
+  background-color: white !important;
   overflow-x: hidden;
 }
 
@@ -52,7 +52,6 @@ a {
   font-family: 'DINPro-Medium';
 }
 @media screen and (min-width: 320px) {
-
   .banner-container {
     display: flex;
     justify-content: center;
@@ -92,7 +91,19 @@ a {
     position: relative;
     flex-direction: column;
     margin: 8px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+
+  .va-certified {
+    font-family: 'DINPro-Bold';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 4px;
+    background-color: transparent;
+    background-color: #d21800;
+    color: white;
+    font-size: 12px;
   }
 
   .va-bg {
@@ -106,7 +117,7 @@ a {
     position: absolute;
     max-width: 80%;
   }
-  
+
   .va-text {
     font-family: 'DINPro-Bold';
     position: absolute;
@@ -122,7 +133,7 @@ a {
     padding: 12px;
     background-color: white;
     margin: 8px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   }
 
   .card-container {
@@ -133,11 +144,9 @@ a {
     font-family: 'DINPro-Regular';
     font-size: 16px;
   }
-
 }
 
 @media screen and (min-width: 768px) {
-
   .banner-container {
     display: flex;
     justify-content: center;
@@ -177,7 +186,7 @@ a {
     position: relative;
     flex-direction: column;
     margin: 8px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   }
 
   .va-bg {
@@ -191,7 +200,7 @@ a {
     position: absolute;
     max-width: 80%;
   }
-  
+
   .va-text {
     font-family: 'DINPro-Bold';
     position: absolute;
@@ -206,7 +215,7 @@ a {
     padding: 16px;
     background-color: white;
     margin: 8px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   }
 
   .card-container {
@@ -220,11 +229,9 @@ a {
     font-family: 'DINPro-Regular';
     font-size: 20px;
   }
-
 }
 
 @media screen and (min-width: 1440px) {
-
   .banner-container {
     display: flex;
     justify-content: center;
@@ -236,7 +243,7 @@ a {
     object-fit: cover;
     max-height: 550px;
     width: 100vw;
-    object-position: 0% 55%; 
+    object-position: 0% 55%;
   }
 
   .banner-text {
@@ -265,7 +272,7 @@ a {
     position: relative;
     flex-direction: column;
     margin: 16px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   }
 
   .va-bg {
@@ -279,13 +286,25 @@ a {
     position: absolute;
     max-width: 80%;
   }
-  
+
   .va-text {
     font-family: 'DINPro-Bold';
     position: absolute;
     top: 0;
     color: grey;
     font-size: 12px;
+  }
+
+  .va-certified {
+    font-family: 'DINPro-Bold';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 4px;
+    background-color: transparent;
+    background-color: #d21800;
+    color: white;
+    font-size: 18px;
   }
 
   .mission-statement {
@@ -295,7 +314,7 @@ a {
     padding: 16px;
     background-color: white;
     margin: 16px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   }
 
   .card-container {
@@ -317,11 +336,9 @@ a {
     font-family: 'DINPro-Regular';
     font-size: 20px;
   }
-
 }
 
 @media screen and (min-width: 2560px) {
-
   .banner-container {
     display: flex;
     justify-content: center;
@@ -333,7 +350,7 @@ a {
     object-fit: cover;
     max-height: 768px;
     width: 100vw;
-    object-position: 0% 65%; 
+    object-position: 0% 65%;
   }
 
   .banner-text {
@@ -362,7 +379,7 @@ a {
     position: relative;
     flex-direction: column;
     margin: 16px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   }
 
   .va-bg {
@@ -376,13 +393,25 @@ a {
     position: absolute;
     max-width: 80%;
   }
-  
+
   .va-text {
     font-family: 'DINPro-Bold';
     position: absolute;
     top: 0;
     color: grey;
     font-size: 12px;
+  }
+
+  .va-certified {
+    font-family: 'DINPro-Bold';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 4px;
+    background-color: transparent;
+    background-color: #d21800;
+    color: white;
+    font-size: 18px;
   }
 
   .mission-statement {
@@ -392,7 +421,7 @@ a {
     padding: 16px;
     background-color: white;
     margin: 16px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   }
 
   .card-container {
@@ -414,5 +443,4 @@ a {
     font-family: 'DINPro-Regular';
     font-size: 36px;
   }
-
 }
