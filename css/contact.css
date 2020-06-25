@@ -1,0 +1,65 @@
+@media screen and (min-width: 320px) {
+  .contact-container {
+    width: 95%;
+    margin: auto;
+  }
+
+  .contact-card {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+  }
+
+  .contact-title {
+    text-align: center;
+    font-family: 'DINPro-Bold';
+    font-size: 32px;
+    padding: 0 0 18px 0;
+  }
+
+  .contact-card-primary > div:first-child {
+    font-family: 'DINPro-Bold';
+    font-size: 24px;
+  }
+  .contact-card-primary > div:nth-child(2) {
+    font-family: 'DINPro-Light';
+  }
+
+  .contact-card-secondary {
+    padding: 16px 0;
+  }
+
+  iframe {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact-container {
+    width: 90%;
+    margin: auto;
+  }
+
+  iframe {
+    width: 100%;
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .contact-container {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .contact-container {
+    width: 50%;
+    margin: auto;
+  }
+}
