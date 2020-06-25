@@ -1,0 +1,64 @@
+@media screen and (min-width: 320px) {
+  .tools-container {
+    padding-top: 16px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tools-title {
+    text-align: center;
+    font-family: 'DINPro-Bold';
+    font-size: 19px;
+    padding: 0 0 18px 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tools-container {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tools-title {
+    text-align: center;
+    font-family: 'DINPro-Bold';
+    font-size: 24px;
+    padding: 0 0 18px 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .tools-container {
+    width: 35%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tools-title {
+    text-align: center;
+    font-family: 'DINPro-Bold';
+    font-size: 31px;
+    padding: 0 0 18px 0;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .tools-container {
+    width: 20%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tools-title {
+    text-align: center;
+    font-family: 'DINPro-Bold';
+    font-size: 32px;
+    padding: 0 0 18px 0;
+  }
+}
