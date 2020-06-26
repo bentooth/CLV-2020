@@ -8,10 +8,9 @@
     margin-top: 16px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     padding: 16px;
-    align-items: center;
   }
 
   .contact-title {
@@ -42,6 +41,16 @@
   .contact-container {
     width: 90%;
     margin: auto;
+  }
+
+  .contact-card {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
   }
 
   iframe {
