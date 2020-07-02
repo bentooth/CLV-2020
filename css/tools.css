@@ -5,6 +5,7 @@
     margin: auto;
     display: flex;
     flex-direction: column;
+    padding-bottom: 16px;
   }
 
   .tools-title {
@@ -45,6 +46,14 @@
     font-size: 31px;
     padding: 0 0 18px 0;
   }
+
+  .tools-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 2560px) {
@@ -60,5 +69,13 @@
     font-family: 'DINPro-Bold';
     font-size: 32px;
     padding: 0 0 18px 0;
+  }
+
+  .tools-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
   }
 }
