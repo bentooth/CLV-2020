@@ -30,6 +30,7 @@
 
   .contact-card-secondary {
     padding: 16px 0;
+    width: 250px;
   }
 
   iframe {
@@ -88,7 +89,7 @@
     margin: auto;
   }
 
-    .contact-footer {
+  .contact-footer {
     position: fixed;
     left: 0;
     bottom: 0;
