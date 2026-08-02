@@ -15,7 +15,7 @@ export default function ProjectsPage() {
         aria-labelledby="projects-heading"
       >
         <Image
-          src="/projects-hero.png"
+          src="/projects-hero.jpg"
           alt="CLV Construction residential project with indoor and outdoor living spaces"
           fill
           priority

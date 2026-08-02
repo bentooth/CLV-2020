@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     url: "https://www.clvconstructionllc.com",
     images: [
       {
-        url: "https://clvconstructionllc.com/images/meta-banner.png",
+        url: "https://clvconstructionllc.com/images/meta-banner.jpg",
       },
     ],
   },

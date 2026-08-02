@@ -7,31 +7,31 @@ const INTERVAL_MS = 5000;
 
 const testimonials = [
   {
-    src: "/testimonials/testimonial-1.png",
+    src: "/testimonials/testimonial-1.jpg",
     alt: "5-star Google review from Marlena praising CLV renovation work",
     width: 1346,
     height: 606,
   },
   {
-    src: "/testimonials/testimonial-2.png",
+    src: "/testimonials/testimonial-2.jpg",
     alt: "5-star Google review from Cesar de los Santos about CLV building their first home",
     width: 1348,
     height: 406,
   },
   {
-    src: "/testimonials/testimonial-3.png",
+    src: "/testimonials/testimonial-3.jpg",
     alt: "5-star Google review from Emilio Caballero recommending CLV for home buying and building",
     width: 1338,
     height: 276,
   },
   {
-    src: "/testimonials/testimonial-4.png",
+    src: "/testimonials/testimonial-4.jpg",
     alt: "5-star Google review from Shane Wilson about CLV work on South Padre Island",
     width: 1328,
     height: 276,
   },
   {
-    src: "/testimonials/testimonial-5.png",
+    src: "/testimonials/testimonial-5.jpg",
     alt: "5-star Google review from Elisa Macias about CLV walk-in shower remodel",
     width: 1320,
     height: 482,

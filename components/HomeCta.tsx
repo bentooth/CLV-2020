@@ -5,7 +5,7 @@ const phone = "(956) 454-4141";
 const phoneHref = "tel:9564544141";
 
 const ctaImage = {
-  src: "/Final-Cta.png",
+  src: "/Final-Cta.jpg",
   alt: "CLV Construction custom home at sunset in South Texas",
 };
 

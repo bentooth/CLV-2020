@@ -10,7 +10,7 @@ export default function CalculatorPage() {
   return (
     <section className="relative isolate flex min-h-[calc(100dvh-8rem)] items-center justify-center">
       <Image
-        src="/calculator-background.png"
+        src="/calculator-background.jpg"
         alt=""
         fill
         priority
