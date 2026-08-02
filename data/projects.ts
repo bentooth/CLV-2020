@@ -26,6 +26,34 @@ export type Project = {
   images: string[];
 };
 
+export type CurrentProject = {
+  id: string;
+  title: string;
+  description: string;
+  pdf: string;
+};
+
+export const currentProjects: CurrentProject[] = [
+  {
+    id: "floor-plan",
+    title: "Floor Plan",
+    description: "Home floor plans for a current residence build.",
+    pdf: "/home-plans/Floor-Plan.pdf",
+  },
+  {
+    id: "floor-plan-2",
+    title: "Floor Plan 2",
+    description: "Alternate floor plans for a current residence build.",
+    pdf: "/home-plans/Floor-Plan-2.pdf",
+  },
+  {
+    id: "pool-house-addition",
+    title: "Pool House Addition",
+    description: "Plans for a pool house addition currently underway.",
+    pdf: "/home-plans/Pool-House-Addition.pdf",
+  },
+];
+
 export const projects: Project[] = [
   {
     id: "residential-projects",

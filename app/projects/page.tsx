@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import CurrentProjects from "@/components/CurrentProjects";
 import ProjectGallery from "@/components/ProjectGallery";
 
 export const metadata: Metadata = {
@@ -38,6 +39,7 @@ export default function ProjectsPage() {
         </div>
       </section>
       <ProjectGallery />
+      <CurrentProjects />
     </div>
   );
 }

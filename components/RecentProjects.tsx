@@ -30,6 +30,7 @@ const recentProjectImages = [
   "/recent-projects/IMG_7228.jpg",
   "/recent-projects/gloor.jpg",
   "/recent-projects/dji_fly_20260312_155448_37_1773349026890_photo_optimized.JPEG",
+  "/recent-projects/Screenshot%202026-08-01%20at%208.42.53%E2%80%AFPM.png",
 ] as const;
 
 const midpoint = Math.ceil(recentProjectImages.length / 2);
