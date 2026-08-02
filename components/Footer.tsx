@@ -16,8 +16,8 @@ const phoneHref = "tel:9564544141";
 export default function Footer() {
   return (
     <footer className="mt-auto border-t-2 border-accent bg-white">
-      <div className="mx-auto grid max-w-6xl gap-10 px-4 py-10 md:grid-cols-[1.2fr_1fr_1fr] md:gap-12 md:px-6 md:py-12">
-        <div>
+      <div className="mx-auto grid max-w-6xl gap-10 px-4 py-10 text-center md:grid-cols-[1.2fr_1fr_1fr] md:gap-12 md:px-6 md:py-12 md:text-left">
+        <div className="flex justify-center md:justify-start">
           <Link href="/">
             <Image
               src="/logos/CLV-Logo-transparent.png"
@@ -33,7 +33,7 @@ export default function Footer() {
           <h2 className="mb-4 text-xs font-bold uppercase tracking-wide text-muted">
             Quick Links
           </h2>
-          <ul className="flex flex-col gap-2">
+          <ul className="flex flex-col items-center gap-2 md:items-start">
             {navLinks.map((link) => (
               <li key={link.href}>
                 <Link
@@ -51,7 +51,7 @@ export default function Footer() {
           <h2 className="mb-4 text-xs font-bold uppercase tracking-wide text-muted">
             Contact
           </h2>
-          <ul className="flex flex-col gap-2">
+          <ul className="flex flex-col items-center gap-2 md:items-start">
             <li>
               <a
                 href={phoneHref}
