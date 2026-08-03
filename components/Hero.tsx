@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const stats = [
-  { value: "10+", label: "Years of Experience" },
+  { value: "15+", label: "Years of Experience" },
   { value: "50+", label: "Homes Built" },
   { value: "100+", label: "Projects Completed" },
 ];

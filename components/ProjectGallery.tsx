@@ -37,9 +37,9 @@ export default function ProjectGallery() {
               key={project.id}
               type="button"
               onClick={() => openProject(project)}
-              className="group flex flex-col overflow-hidden border border-border bg-white text-left shadow-[0_2px_12px_rgba(0,0,0,0.04)] transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-[0_12px_28px_rgba(0,0,0,0.1)]"
+              className="group block w-full overflow-hidden border border-border bg-white text-left shadow-[0_2px_12px_rgba(0,0,0,0.04)] transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-[0_12px_28px_rgba(0,0,0,0.1)]"
             >
-              <div className="relative aspect-[4/3] overflow-hidden bg-surface">
+              <div className="relative w-full overflow-hidden bg-surface pt-[75%]">
                 <Image
                   src={project.cover}
                   alt={project.title}
