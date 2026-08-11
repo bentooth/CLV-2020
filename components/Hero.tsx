@@ -19,8 +19,8 @@ const secondaryCta = {
 
 /** Replace this path to swap the hero background image. */
 const heroImage = {
-  src: "/images/new_banner.jpeg",
-  alt: "Completed CLV Construction homes in South Texas",
+  src: "/Home1.jpg",
+  alt: "Custom coastal-style home built by CLV Construction in South Texas",
 };
 
 export default function Hero() {
@@ -38,11 +38,11 @@ export default function Hero() {
 
         {/* Left-weighted gradient keeps text readable while homes stay visible on the right */}
         <div
-          className="hero-animate-overlay absolute inset-0 bg-gradient-to-r from-[#1a1a1a]/90 via-[#1a1a1a]/65 to-[#1a1a1a]/25"
+          className="hero-animate-overlay absolute inset-0 bg-gradient-to-r from-[#1a1a1a]/45 via-[#1a1a1a]/25 to-[#1a1a1a]/05"
           aria-hidden="true"
         />
         <div
-          className="hero-animate-overlay absolute inset-0 bg-gradient-to-t from-[#1a1a1a]/55 via-transparent to-[#1a1a1a]/20"
+          className="hero-animate-overlay absolute inset-0 bg-gradient-to-t from-[#1a1a1a]/30 via-transparent to-[#1a1a1a]/10"
           aria-hidden="true"
         />
 

@@ -4,6 +4,17 @@ import PaymentCalculator from "@/components/PaymentCalculator";
 
 export const metadata: Metadata = {
   title: "Payment Calculator",
+  description:
+    "Estimate monthly payments for your next construction or remodeling project with the CLV Construction payment calculator.",
+  alternates: {
+    canonical: "/calculator",
+  },
+  openGraph: {
+    title: "Payment Calculator | CLV Construction",
+    description:
+      "Estimate monthly payments for your next construction or remodeling project with the CLV Construction payment calculator.",
+    url: "/calculator",
+  },
 };
 
 export default function CalculatorPage() {

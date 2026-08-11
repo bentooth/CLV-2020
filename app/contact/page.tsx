@@ -4,11 +4,24 @@ import { contacts, mapEmbedUrl } from "@/data/contacts";
 
 export const metadata: Metadata = {
   title: "Contact",
+  description:
+    "Contact CLV Construction in Brownsville, Texas for commercial, residential, and remodeling construction projects.",
+  alternates: {
+    canonical: "/contact",
+  },
+  openGraph: {
+    title: "Contact | CLV Construction",
+    description:
+      "Contact CLV Construction in Brownsville, Texas for commercial, residential, and remodeling construction projects.",
+    url: "/contact",
+  },
 };
 
 export default function ContactPage() {
   return (
     <section className="mx-auto flex max-w-4xl flex-col gap-8 px-4 py-10 md:px-6 md:py-14">
+      <h1 className="text-2xl font-bold tracking-wide md:text-3xl">Contact</h1>
+
       <div className="overflow-hidden border border-border">
         <iframe
           src={mapEmbedUrl}

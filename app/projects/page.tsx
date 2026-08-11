@@ -5,6 +5,17 @@ import ProjectGallery from "@/components/ProjectGallery";
 
 export const metadata: Metadata = {
   title: "Projects",
+  description:
+    "Browse residential and commercial construction projects by CLV Construction across Brownsville and the Rio Grande Valley.",
+  alternates: {
+    canonical: "/projects",
+  },
+  openGraph: {
+    title: "Projects | CLV Construction",
+    description:
+      "Browse residential and commercial construction projects by CLV Construction across Brownsville and the Rio Grande Valley.",
+    url: "/projects",
+  },
 };
 
 export default function ProjectsPage() {

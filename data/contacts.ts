@@ -22,7 +22,7 @@ export const contacts: Contact[] = [
     name: "Liz Realty LLC",
     title: "Brokerage Firm",
     email: "LizRealty1@gmail.com",
-    phone: "(956) 547-7770",
+    phone: "(956) 459-9800",
   },
 ];
 
